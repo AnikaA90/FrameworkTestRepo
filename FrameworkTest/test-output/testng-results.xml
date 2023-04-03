@@ -2,38 +2,38 @@
 <testng-results ignored="6" total="10" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-04-02T23:07:24 CDT" name="Suite" finished-at="2023-04-02T23:07:40 CDT" duration-ms="15380">
+  <suite started-at="2023-04-02T23:46:11 CDT" name="Suite" finished-at="2023-04-02T23:46:33 CDT" duration-ms="21334">
     <groups>
     </groups>
-    <test started-at="2023-04-02T23:07:24 CDT" name="Test" finished-at="2023-04-02T23:07:40 CDT" duration-ms="15380">
+    <test started-at="2023-04-02T23:46:11 CDT" name="Test" finished-at="2023-04-02T23:46:33 CDT" duration-ms="21334">
       <class name="tests.LoginLogoutTest">
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:tests.LoginLogoutTest@6fd83fc1]" started-at="2023-04-02T23:07:24 CDT" name="openBrowser" finished-at="2023-04-02T23:07:28 CDT" duration-ms="4145" status="PASS">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:tests.LoginLogoutTest@6fd83fc1]" started-at="2023-04-02T23:46:11 CDT" name="openBrowser" finished-at="2023-04-02T23:46:18 CDT" duration-ms="6718" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method signature="signInAndOutTest()[pri:0, instance:tests.LoginLogoutTest@6fd83fc1]" started-at="2023-04-02T23:07:29 CDT" name="signInAndOutTest" finished-at="2023-04-02T23:07:29 CDT" duration-ms="776" status="PASS">
+        <test-method signature="signInAndOutTest()[pri:0, instance:tests.LoginLogoutTest@6fd83fc1]" started-at="2023-04-02T23:46:18 CDT" name="signInAndOutTest" finished-at="2023-04-02T23:46:19 CDT" duration-ms="1184" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signInAndOutTest -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.LoginLogoutTest@6fd83fc1]" started-at="2023-04-02T23:07:39 CDT" name="closeBrowser" finished-at="2023-04-02T23:07:40 CDT" duration-ms="309" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.LoginLogoutTest@6fd83fc1]" started-at="2023-04-02T23:46:32 CDT" name="closeBrowser" finished-at="2023-04-02T23:46:33 CDT" duration-ms="588" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- tests.LoginLogoutTest -->
       <class name="tests.ShoppingCartTest">
-        <test-method signature="buyAndCheckout()[pri:0, instance:tests.ShoppingCartTest@d5b810e]" started-at="2023-04-02T23:07:29 CDT" name="buyAndCheckout" finished-at="2023-04-02T23:07:31 CDT" duration-ms="1583" status="PASS">
+        <test-method signature="buyAndCheckout()[pri:0, instance:tests.ShoppingCartTest@d5b810e]" started-at="2023-04-02T23:46:19 CDT" name="buyAndCheckout" finished-at="2023-04-02T23:46:21 CDT" duration-ms="2119" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- buyAndCheckout -->
       </class> <!-- tests.ShoppingCartTest -->
       <class name="tests.TestProperties">
-        <test-method signature="loginWithProperties()[pri:0, instance:tests.TestProperties@342c38f8]" started-at="2023-04-02T23:07:39 CDT" name="loginWithProperties" finished-at="2023-04-02T23:07:39 CDT" duration-ms="571" status="PASS">
+        <test-method signature="loginWithProperties()[pri:0, instance:tests.TestProperties@342c38f8]" started-at="2023-04-02T23:46:31 CDT" name="loginWithProperties" finished-at="2023-04-02T23:46:32 CDT" duration-ms="953" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginWithProperties -->
       </class> <!-- tests.TestProperties -->
       <class name="tests.ExcelTest">
-        <test-method signature="excelDataLogin()[pri:0, instance:tests.ExcelTest@43dac38f]" started-at="2023-04-02T23:07:31 CDT" name="excelDataLogin" finished-at="2023-04-02T23:07:39 CDT" duration-ms="7922" status="PASS">
+        <test-method signature="excelDataLogin()[pri:0, instance:tests.ExcelTest@43dac38f]" started-at="2023-04-02T23:46:21 CDT" name="excelDataLogin" finished-at="2023-04-02T23:46:31 CDT" duration-ms="9628" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- excelDataLogin -->
