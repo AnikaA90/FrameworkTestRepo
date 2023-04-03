@@ -8,7 +8,7 @@ public class ConfigInfo {
 	
 	public static String readProperty(String attributeName) throws IOException {
 		
-		FileReader input = new FileReader("C:\\Users\\grn_a\\eclipse-workspace\\FrameworkTest\\src\\main\\java\\configuration\\config.properties");
+		FileReader input = new FileReader("C:\\Users\\grn_a\\git\\FrameworkTestRepo\\FrameworkTest\\src\\main\\java\\configuration\\config.properties");
 		Properties p = new Properties();
 		p.load(input);
 		

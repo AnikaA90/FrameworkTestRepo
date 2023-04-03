@@ -12,7 +12,7 @@ public class ExcelInfo {
 	
 	public static void getSheet() {
 		try {
-			workbook = new XSSFWorkbook("C:\\Users\\grn_a\\eclipse-workspace\\FrameworkTest\\ExcelData\\LoginInfo.xlsx");
+			workbook = new XSSFWorkbook("C:\\Users\\grn_a\\git\\FrameworkTestRepo\\FrameworkTest\\ExcelData\\LoginInfo.xlsx");
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
