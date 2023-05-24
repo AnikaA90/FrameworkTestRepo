@@ -7,6 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
 import pagerepository.CheckoutCompletePage;
 import pagerepository.CheckoutInfoPage;
 import pagerepository.CheckoutOverviewPage;
@@ -23,7 +24,7 @@ public class BaseClass {
 	@BeforeTest
 	public void openBrowser() {
 		System.out.println("Opening Chrome Browser");
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\grn_a\\Downloads\\chromedriver_win32(3)\\chromedriver.exe");
+		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
 		driver.get(baseUrl);
 		driver.manage().window().maximize();
